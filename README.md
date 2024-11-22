@@ -25,7 +25,7 @@ bun add --save-dev postcss-react-strict-dom autoprefixer
 Install `@stylexjs/babel-plugin` explicitly (not sure this is a upstream bug but this dependency is required for running).
 
 ```bash
-bun add --save-dev @stylexjs/babel-plugin@0.75
+bun add --save-dev @stylexjs/babel-plugin@0.7.5
 ```
 
 ### 2. Apply patches
