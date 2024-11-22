@@ -1,8 +1,9 @@
 # Next.js + postcss-react-strict-dom Demo
 
 ## What
+This is a demo of how to extract StyleX CSS for Next.js using postcss-react-strict-dom.
 
-This is a continuation of StyleX CSS extraction method used for [React-Strict-DOM](https://github.com/facebook/react-strict-dom) using [postcss-react-strict-dom](https://github.com/javascripter/postcss-react-strict-dom), but **for Next.js 15 and App Dir**.
+> This is a continuation of StyleX CSS extraction method used for [React-Strict-DOM's official Expo Web examples](https://github.com/facebook/react-strict-dom) using [postcss-react-strict-dom](https://github.com/javascripter/postcss-react-strict-dom), but **for Next.js 15 and App Dir**.
 
 See related issues and PRs for context:
 
@@ -57,4 +58,4 @@ bun run build && bun run start
 
 1. `/` renders the official example (copied and lightly-modified for Next.js)
 
-2. `/server-action-demo' is a test page to confirm Server Actions still work correctly
+2. `/server-action-demo` is a test page to confirm Server Actions still work correctly
