@@ -1,0 +1,13 @@
+diff --git a/babel/index.js b/babel/index.js
+index bcbdca7e17aeb74652ce30a7b9a774584f9f0f86..d13f18946b7663caf357c11129417139cdc3530c 100644
+--- a/babel/index.js
++++ b/babel/index.js
+@@ -236,7 +236,7 @@ function reactStrictPreset(_, options = {}) {
+         {
+           dev: opts.dev,
+           importSources: [{ from: 'react-strict-dom', as: 'css' }],
+-          runtimeInjection: opts.dev, // temporary until Expo/Metro can support built-time
++          runtimeInjection: false,
+           styleResolution: 'property-specificity',
+           unstable_moduleResolution: {
+             type: 'commonJS',
